@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'actividad2-1';
+  public resultado: number = 0;
+  public sumar(){
+    this.resultado = this.resultado + 4;
+  }
 }
